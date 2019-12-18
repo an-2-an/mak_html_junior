@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Моя четвертая страничка</title>
+    <style>
+        :root {
+          --main-bg-color: gold;
+          --second-color: #555555;
+        }
+        body {background: var(--main-bg-color);}
+        h1 {text-align: left; color: white; margin-left: 250px;}
+        .container {width:570px;
+            box-sizing: border-box;
+            min-height:100px;
+            background: white; margin-left: 30px;
+            padding: 1px; margin-bottom: 20px;
+            }
+        .row {display: inline-block;
+            box-sizing: border-box;
+            width: 250px; min-height: 150px;
+            background: var(--second-color);
+            margin-left: 20px;
+            margin-top: 20px; margin-bottom: 20px;
+            padding: 10px; font-size: 130%;
+            color: var(--main-bg-color);}
+        #red {color: red;}
+    </style>
+</head>
+<body>
+    <h1>Div-s</h1>
+    <div class="container">
+        <div class="row">
+            <p>Это первая колонка</p>
+        </div>
+        <div class="row">
+            <p>Это вторая колонка</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="red" class="row">
+            <p>Это третья колонка</p>
+        </div>
+        <div class="row">
+            <p>Это четвертая колонка</p>
+        </div>
+    </div>
+
+</body>
+</html>
