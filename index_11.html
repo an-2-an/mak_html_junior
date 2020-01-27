@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Моя 11 страничка</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+      <meta charset="utf-8">
+   </head>
+   <body>
+      <div class="container text-center pb-2">
+         <h2>Форма обратной связи</h2>
+         <div class="row bg-info justify-content-center pb-4">
+            <div class="col-4">
+               <form>
+                  <div class="form-group">
+                     <label for="usr">Логин:</label>
+                     <input type="text" class="form-control" id="usr">
+                  </div>
+                  <div class="form-group">
+                     <label for="pwd">Пароль:</label>
+                     <input type="password" class="form-control" id="pwd">
+                  </div>
+                  <div class="checkbox">
+                     <label><input type="checkbox" value="">Разместить анонимно</label>
+                  </div>
+                  <div class="form-group">
+                     <label for="comment">Ваш комментарий к статье:</label>
+                     <textarea class="form-control" rows="5" id="comment"></textarea>
+                  </div>
+                  <div class="radio">
+                     <label><input type="radio" name="optradio" checked>Вы рекомендуете наш сайт</label>
+                  </div>
+                  <div class="radio">
+                     <label><input type="radio" name="optradio">Вы не рекомендуете наш сайт</label>
+                  </div>
+                  <div class="form-group">
+                     <label for="sel1">Сколько лет на сайте:</label>
+                     <select class="form-control" id="sel1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                     </select>
+                  </div>
+                  <button type="submit" class="btn btn-danger">Отправить</button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
